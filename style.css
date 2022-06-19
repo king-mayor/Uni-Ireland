@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icon-image{
+    padding-left: 200px;
+}
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 10px;
+    color: cornsilk;
+}
+.nav-bar ul li a:hover{
+    background-color: #004466;
+    color: rgb(153, 51, 51);
+    cursor: pointer;
+}
+.nav-bar ul{
+    display: inline-flex;
+    background-color: #204060;
+    position: relative;
+    left: 200px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.profile-intro h1{
+    padding-left: 210px;
+    padding-top: 40px;
+    font-size: 1.35em;
+    color: #204060;
+    font-weight: 700;
+}
+.profile-intro p{
+    font-size: 0.8em;
+    padding-top: 15px;
+    padding-left: 215px;
+    line-height: 20px;
+    color: #204060;
+}
+.btn{
+    padding-left: 217px;
+    padding-top: 20px;
+}
+.btn button{
+    color: #204060;
+    font-size: 0.6em;
+    font-weight: 800;
+    padding: 5px 30px;
+    background-color: transparent;
+    border: 1px solid #204060;
+}
+.btn button:hover{
+    color: white;
+    background-color: #204060;
+    cursor: pointer;
+}
+.wrapper{
+    background-image: url(images/ireland6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container img{
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: minmax(200px, auto);
+    column-gap: 10px;
+    padding-top: 50px;
+    padding-left: 10%;
+    text-align: center;
+    width: 880px;
+    font-size: 0.8em;
+    position: relative;
+    left: 10%;
+}
+.container > div{
+    background-color: #F5F5F5;
+}
+.container a{
+    text-decoration: none;
+    color: #204060;
+    font-weight: 900;
+}
+.container p{
+    color: #204060;
+
+}
+.container button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 25px;
+    color: white;
+    background-color: #204060;
+    border: 1px solid #204060;
+}
+.container button:hover{
+    background-color:  #004d99;
+    cursor: pointer;
+}
+.about{
+    padding-top: 30px;
+    padding-left: 320px;
+    margin-top: 30px;
+    background-color: #F5F5F5;
+}
+.about h2{
+    font-size: 1.2em;
+    color: #204060;
+}
+.about p{
+    font-size: 0.8em;
+    line-height: 20px;
+    color: #204060;
+}
+.about ul li{
+    font-size: 0.8em;
+    line-height: 20px;
+    color: #204060;
+}
+.about h3{
+    font-size: 1em;
+    color: #204060;
+}
+.news h3{
+    font-size: 1em;
+    padding-left: 320px;
+    padding-top: 50px;
+    color: #204060;
+}
+hr{
+   margin-top: 30px;
+}
+.date ul{
+    padding-left: 200px;
+    padding-top: 10px;
+    display: inline-flex;
+}
+.date ul li a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: darkgray;
+    margin: 120px;
+}
+.date ul li{
+    list-style: none;
+}
+.date-links ul li a{
+    text-decoration: none;
+    font-size: 0.7em;
+    margin: 60px;
+    color: #204060;
+}
+.date-links ul{
+    display: inline-flex;
+    margin: 10px;
+    padding-left: 120px;
+}
+.date-links ul li{
+    list-style: none;
+}
+.date-links-1 ul li a{
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #204060;
+    margin: 90px;
+}
+.date-links-1 ul li{
+    list-style: none;
+}
+.date-links-1 ul{
+    display: inline-flex;
+    padding-left: 90px;
+}
+.footer-headers ul{
+    font-size: 0.8em;
+    font-weight: 800;
+    display: inline-flex;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.footer-headers ul li{
+    list-style: none;
+    margin: 0px 150px;
+    color: white;
+}
+.footer-1 ul li a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: white;
+}
+.footer-1 ul li{
+    list-style: none;
+    display: inline-flex;
+    font-size: 0.8em;
+    margin: 0px 120px;
+    color: white;
+}
+.footer-1 ul{
+    padding-left: 100px;
+    font-size: 0.8em;
+}
+.footer-2 ul{
+    display: inline-flex;
+    padding-left: 70px;
+    font-size: 0.8em;
+}
+.footer-2 ul li{
+    list-style: none;
+    margin: 0 150px;
+    color: white;
+    font-size: 0.8em;
+}
+.footer-3 ul{
+    display: inline-flex;
+    padding-left: 70px;
+    font-size: 0.8em;
+}
+.footer-3 ul li{
+    margin: 0px 150px;
+    list-style: none;
+    color: white;
+}
+.footer-4 ul{
+    font-size: 0.8em;
+    display: inline-flex;
+    padding-left: 70px;
+}
+.footer-4 ul li{
+    list-style: none;
+    margin: 0px 150px;
+    color: white;
+}
+.footer-4 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-5 ul{
+    font-size: 0.8em;
+    display: inline-flex;
+}
+.footer-5 ul{
+    font-size: 0.8em;
+    padding-left: 220px;
+}
+.footer-5 ul li{
+    list-style: none;
+    font-size: 0.8em;
+    color: white;
+}
+footer{
+    background-color: #001a4d;  
+}
+.post-footer ul{
+   font-size: 0.8em;
+   display: inline-flex;
+   padding-left: 50px;
+   margin-bottom: 30px;
+}
+.post-footer ul li{
+   list-style: none;
+   color: darkgray;
+   margin: 0px 220px;
+}
+.footer-icon img{
+   padding-left: 950px;
+   height: 50px;
+}
+@media all and (max-width: 600px) {
+    /* Smaller Devices */
+    .container {
+        width: 350px;
+        justify-content: center;
+        padding-left: 0%;
+        position: relative;
+        left: 15%;
+    }
+    body, html{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .scholar-x {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-bottom: 40px;
+    }
+    .scholar-y {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-bottom: 40px;
+    }
+    .scholar-z {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        margin-bottom: 40px;
+    }
+    .container img{
+        position: relative;
+        left: 120px;
+    }
+    /* Icon image */
+    .icon-image{
+        padding-left:10px;
+    }
+    .nav-bar ul{
+       position: relative;
+       left: 20px;
+    }
+    .nav-bar ul li a {
+        margin: 5px;
+        font-size: 0.5em;
+    }
+    .profile-intro h1 {
+        padding-left: 0px;
+    }
+    .profile-intro p{
+        padding-left: 20px;
+    }
+    .btn{
+        padding-left: 0;
+    }
+    .about{
+        padding-left: 10px;
+        display: flex;
+        justify-items: center;
+    }
+    .news h3{
+        padding-left: 0px;
+    }
+    .date ul{
+        padding-left: 100px;
+    }
+    .date ul li a {
+        margin: 20px;
+    }
+    .date-links ul{
+        padding-left: 0px;
+    }
+    .date-links ul li a {
+        margin: 0;
+    }
+    .date-links-1 ul{
+        padding-left: 0px;
+    }
+    .date-links-1 ul li a {
+        margin: 10px;
+    }
+    .footer-headers ul{
+        padding-left: 0;
+    }
+    .footer-headers ul li{
+        margin: 0px 50px;
+    }
+    .footer-1 ul {
+        padding-left: 0px;
+    }
+    .footer-1 ul li{
+        margin: 0;
+    }
+    .footer-2 ul {
+        padding-left: 0;
+    }
+    .footer-2 ul li {
+        margin: 0px 50px;
+    }
+    .footer-3 ul{
+        padding-left: 0;
+    }
+    .footer-3 ul li {
+        margin: 0px 50px;
+    }
+    .footer-4 ul{
+        padding-left: 0px;
+    }
+    .footer-4 ul li {
+        margin: 0px 50px;
+    }
+    .footer-5 ul{
+        padding-left: 50px;
+    }
+    .footer-icon img{
+        padding-left: 250px;
+    }
+    .post-footer ul {
+        padding-left: 0;
+    }
+    .post-footer ul li {
+        margin: 0px 30px;
+    }
+}
