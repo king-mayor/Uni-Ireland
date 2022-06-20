@@ -261,5 +261,17 @@ hr{
     .news h3{
         padding-left: 0px;
     }
-    
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer h3 {
+        font-size: 1em;
+    }
+    .footer p{
+        font-size: 0.9em;
+    }
+    .footer a {
+        font-size: 0.9em;
+    }
 }
