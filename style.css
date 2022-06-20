@@ -141,141 +141,59 @@
 hr{
    margin-top: 30px;
 }
-.date ul{
-    padding-left: 200px;
-    padding-top: 10px;
-    display: inline-flex;
-}
-.date ul li a{
-    text-decoration: none;
-    font-size: 0.8em;
+.events h3{
+    font-size: 0.6em;
     color: darkgray;
-    margin: 120px;
 }
-.date ul li{
-    list-style: none;
-}
-.date-links ul li a{
-    text-decoration: none;
-    font-size: 0.7em;
-    margin: 60px;
-    color: #204060;
-}
-.date-links ul{
-    display: inline-flex;
-    margin: 10px;
-    padding-left: 120px;
-}
-.date-links ul li{
-    list-style: none;
-}
-.date-links-1 ul li a{
+.events ul li a {
     text-decoration: none;
     font-size: 0.7em;
     color: #204060;
-    margin: 90px;
 }
-.date-links-1 ul li{
+.events ul li {
     list-style: none;
 }
-.date-links-1 ul{
-    display: inline-flex;
-    padding-left: 90px;
+.events {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
-.footer-headers ul{
-    font-size: 0.8em;
-    font-weight: 800;
-    display: inline-flex;
-    padding-left: 50px;
-    padding-top: 30px;
-}
-.footer-headers ul li{
-    list-style: none;
-    margin: 0px 150px;
+.footer h3 {
+    font-size: 0.7em;
     color: white;
+    margin-top: 20px;
 }
-.footer-1 ul li a{
+.footer p{
+    font-size: 0.7em;
+    color: white;
+    margin-top: 10px;
+}
+.footer a {
     text-decoration: none;
-    font-size: 0.9em;
-    color: white;
-}
-.footer-1 ul li{
-    list-style: none;
-    display: inline-flex;
-    font-size: 0.8em;
-    margin: 0px 120px;
-    color: white;
-}
-.footer-1 ul{
-    padding-left: 100px;
-    font-size: 0.8em;
-}
-.footer-2 ul{
-    display: inline-flex;
-    padding-left: 70px;
-    font-size: 0.8em;
-}
-.footer-2 ul li{
-    list-style: none;
-    margin: 0 150px;
-    color: white;
-    font-size: 0.8em;
-}
-.footer-3 ul{
-    display: inline-flex;
-    padding-left: 70px;
-    font-size: 0.8em;
-}
-.footer-3 ul li{
-    margin: 0px 150px;
-    list-style: none;
-    color: white;
-}
-.footer-4 ul{
-    font-size: 0.8em;
-    display: inline-flex;
-    padding-left: 70px;
-}
-.footer-4 ul li{
-    list-style: none;
-    margin: 0px 150px;
-    color: white;
-}
-.footer-4 ul li a{
-    text-decoration: none;
-    color: white;
-}
-.footer-5 ul{
-    font-size: 0.8em;
-    display: inline-flex;
-}
-.footer-5 ul{
-    font-size: 0.8em;
-    padding-left: 220px;
-}
-.footer-5 ul li{
-    list-style: none;
     font-size: 0.8em;
     color: white;
 }
-footer{
-    background-color: #001a4d;  
+.footer img {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
-.post-footer ul{
-   font-size: 0.8em;
-   display: inline-flex;
-   padding-left: 50px;
-   margin-bottom: 30px;
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 20px;
+    background-color: #204060;
 }
-.post-footer ul li{
-   list-style: none;
-   color: darkgray;
-   margin: 0px 220px;
+.post-footer {
+    font-size: 0.8em;
+    color: darkgrey;
 }
-.footer-icon img{
-   padding-left: 950px;
-   height: 50px;
+.post-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
+
 @media all and (max-width: 600px) {
     /* Smaller Devices */
     .container {
@@ -343,64 +261,5 @@ footer{
     .news h3{
         padding-left: 0px;
     }
-    .date ul{
-        padding-left: 100px;
-    }
-    .date ul li a {
-        margin: 20px;
-    }
-    .date-links ul{
-        padding-left: 0px;
-    }
-    .date-links ul li a {
-        margin: 0;
-    }
-    .date-links-1 ul{
-        padding-left: 0px;
-    }
-    .date-links-1 ul li a {
-        margin: 10px;
-    }
-    .footer-headers ul{
-        padding-left: 0;
-    }
-    .footer-headers ul li{
-        margin: 0px 50px;
-    }
-    .footer-1 ul {
-        padding-left: 0px;
-    }
-    .footer-1 ul li{
-        margin: 0;
-    }
-    .footer-2 ul {
-        padding-left: 0;
-    }
-    .footer-2 ul li {
-        margin: 0px 50px;
-    }
-    .footer-3 ul{
-        padding-left: 0;
-    }
-    .footer-3 ul li {
-        margin: 0px 50px;
-    }
-    .footer-4 ul{
-        padding-left: 0px;
-    }
-    .footer-4 ul li {
-        margin: 0px 50px;
-    }
-    .footer-5 ul{
-        padding-left: 50px;
-    }
-    .footer-icon img{
-        padding-left: 250px;
-    }
-    .post-footer ul {
-        padding-left: 0;
-    }
-    .post-footer ul li {
-        margin: 0px 30px;
-    }
+    
 }
