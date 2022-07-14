@@ -193,22 +193,35 @@ hr{
     justify-content: space-around;
     margin-bottom: 20px;
 }
-
 @media all and (max-width: 600px) {
     /* Smaller Devices */
     .container {
-        width: 350px;
-        justify-content: center;
-        padding-left: 0%;
-        position: relative;
-        left: 15%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 300px;
+        text-align: center;
+        margin: 0px 70px;
+        left: 0;
+        padding-left: 0;
     }
-    body, html{
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
+    .icon-image img {
+        height: 50px;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .about h2, h3 {
+        margin: 0px 20px;
+    }
+    .about p {
+        margin: 0px 25px;
+    }
+    .about ul li {
+        margin: 0px 25px;
+    }
+    .btn button {
+        margin-left: 20px;
     }
     .scholar-x {
         display: grid;
@@ -265,6 +278,9 @@ hr{
         flex-direction: column;
         text-align: center;
     }
+    .events {
+        margin: 0px 15px;
+    }
     .footer h3 {
         font-size: 1em;
     }
@@ -274,4 +290,51 @@ hr{
     .footer a {
         font-size: 0.9em;
     }
+}
+@media all and (max-width: 900px) {
+    .nav-bar {
+        display: none;
+    }
+    .icon-image {
+        padding-left: 0;
+    }
+    .icon-image img {
+        height: 50px;
+    }
+    .profile-intro {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 400px;
+        text-align: center;
+        margin: 0px 80px;
+    }
+    
+}
+@media all and (max-width: 1200px) {
+    .container {
+        left:0%;
+    }
+    .nav-bar ul {
+        left: 120px;
+    }
+    .icon-image {
+        padding-left: 0;
+    }
+    .icon-image img {
+        height: 50px;
+    }
+    .about {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+}
+.about p{
+    margin-bottom:15px;
+}
 }
