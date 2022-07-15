@@ -196,14 +196,13 @@ hr{
 @media all and (max-width: 600px) {
     /* Smaller Devices */
     .container {
-        display: flex;
+        display: grid;
         gap: 20px;
-        flex-direction: column;
-        width: 300px;
-        text-align: center;
-        margin: 0px 70px;
+        grid-template-columns: 1fr;
+        padding-left: 0%;
+        position: relative;
         left: 0;
-        padding-left: 0;
+        width: 200px;
     }
     .icon-image img {
         height: 50px;
@@ -290,6 +289,9 @@ hr{
     .footer a {
         font-size: 0.9em;
     }
+    .about p{
+    margin-bottom:15px;
+}
 }
 @media all and (max-width: 900px) {
     .nav-bar {
@@ -310,15 +312,18 @@ hr{
         display: flex;
         gap: 20px;
         flex-direction: column;
-        width: 400px;
+        width: 300px;
         text-align: center;
         margin: 0px 80px;
     }
-    
+    .about p{
+    margin-bottom:15px;
+}
 }
 @media all and (max-width: 1200px) {
     .container {
         left:0%;
+        gap: 60px;
     }
     .nav-bar ul {
         left: 120px;
