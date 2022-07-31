@@ -40,9 +40,11 @@
 .profile-intro p{
     font-size: 0.8em;
     padding-top: 15px;
-    padding-left: 215px;
+    padding-left: 20px;
+    padding-right: 30px;
     line-height: 20px;
     color: #204060;
+    text-align: justify;
 }
 .btn{
     padding-left: 217px;
