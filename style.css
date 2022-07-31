@@ -38,9 +38,12 @@
     font-weight: 700;
 }
 .profile-intro p{
-   padding-left: 20px;
-   text-align: justify;
-   padding-right: 30px;
+    font-size: 0.8em;
+    padding-top: 15px;
+    padding-left: 215px;
+    line-height: 20px;
+    color: #204060;
+    text-align: justify;
 }
 .btn{
     padding-left: 217px;
