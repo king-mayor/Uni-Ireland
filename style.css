@@ -62,7 +62,7 @@
     cursor: pointer;
 }
 .wrapper{
-    background-image: url(images/ireland6.jpg);
+    background-image: .url(/IMAGES/ireland6.jpg);
     background-position: center;
     background-size: cover;
 }
