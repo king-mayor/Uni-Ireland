@@ -203,14 +203,15 @@ hr{
 @media all and (max-width: 600px) {
     /* Smaller Devices */
     .container {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 1fr;
-        padding-left: 0%;
+        display: flex;
+        gap: 40px;
+        width: 100%;
+        flex-wrap:wrap;
+        text-align: center;
+        margin: 0px 20px;
         position: relative;
         left: 0;
-        flex-wrap: wrap;
-        width: 100%;
+        padding-left: 0%;
     }
     .container p {
         margin: 0px 40px;
