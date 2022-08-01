@@ -43,7 +43,6 @@
     padding-left: 215px;
     line-height: 20px;
     color: #204060;
-    text-align: justify;
 }
 .btn{
     padding-left: 217px;
@@ -63,7 +62,7 @@
     cursor: pointer;
 }
 .wrapper{
-    background-image: url(./IMAGES/ireland6.jpg);
+    background-image: url(images/ireland6.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -95,6 +94,8 @@
 }
 .container p{
     color: #204060;
+    text-align: justify;
+    margin: 0px 30px;
 
 }
 .container button{
@@ -118,16 +119,20 @@
 .about h2{
     font-size: 1.2em;
     color: #204060;
+    margin: 0px 20px;
 }
 .about p{
     font-size: 0.8em;
     line-height: 20px;
     color: #204060;
+    text-align: justify;
+    margin-right: 0px 20px;
 }
 .about ul li{
     font-size: 0.8em;
     line-height: 20px;
     color: #204060;
+    margin: 0px 20px;
 }
 .about h3{
     font-size: 1em;
@@ -194,6 +199,7 @@ hr{
     justify-content: space-around;
     margin-bottom: 20px;
 }
+
 @media all and (max-width: 600px) {
     /* Smaller Devices */
     .container {
@@ -203,8 +209,11 @@ hr{
         padding-left: 0%;
         position: relative;
         left: 0;
-        right: 15%;
-        width: 150px;
+        flex-wrap: wrap;
+    }
+    .container p {
+        margin: 0px 40px;
+        text-align: justify;
     }
     .icon-image img {
         height: 50px;
@@ -263,6 +272,8 @@ hr{
     }
     .profile-intro p{
         padding-left: 20px;
+        text-align: justify;
+        padding-right: 30px;
     }
     .btn{
         padding-left: 0;
@@ -291,9 +302,6 @@ hr{
     .footer a {
         font-size: 0.9em;
     }
-    .about p{
-    margin-bottom:15px;
-}
 }
 @media all and (max-width: 900px) {
     .nav-bar {
@@ -312,20 +320,53 @@ hr{
     }
     .container {
         display: flex;
-        gap: 20px;
-        flex-direction: column;
-        width: 300px;
+        gap: 40px;
+        width: 400px;
+        flex-wrap:wrap;
         text-align: center;
         margin: 0px 80px;
     }
-    .about p{
-    margin-bottom:15px;
-}
+    .container p {
+        margin: 0px 50px;
+    }
+    .about h2, h3 {
+        margin: 0px 20px;
+    }
+    .about p {
+        margin: 0px 30px;
+    }
+    .about ul li {
+        margin: 0px 30px;
+    }
+    .events{
+        margin: 0px 20px;
+    }
+    .footer {
+        padding: 0px 15px;
+    }
 }
 @media all and (max-width: 1200px) {
     .container {
         left:0%;
-        gap: 60px;
+        gap: 20px;
+    }
+    .container p {
+        margin: 0px 10px;
+    }
+    .about h2, h3 {
+        margin: 0px 20px;
+    }
+    .about p {
+        margin: 0px 30px;
+    }
+    .about ul li {
+        margin: 0px 30px;
+    }
+    .events{
+        margin: 0px 20px;
+    }
+    .footer {
+        padding: 0px 15px;
     }
     .nav-bar ul {
         left: 120px;
@@ -340,8 +381,5 @@ hr{
         padding-left: 0;
         display: flex;
         justify-content: center;
-}
-.about p{
-    margin-bottom:15px;
 }
 }
